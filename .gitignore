@@ -1,0 +1,12 @@
+@"
+node_modules/
+.env
+__pycache__/
+venv/
+.venv/
+dist/
+build/
+*.log
+*.sqlite
+*.sqlite3
+"@ | Out-File -Encoding utf8 .gitignore
