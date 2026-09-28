@@ -9,4 +9,5 @@ build/
 *.log
 *.sqlite
 *.sqlite3
-"@ | Out-File -Encoding utf8 .gitignore
+"@ | Out-File -Encoding utf8 .gitignore*.db
+expense_tracker
